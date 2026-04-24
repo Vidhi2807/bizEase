@@ -261,3 +261,8 @@ This project is licensed under the MIT License.
 ## 💬 Final Note
 
 BizEase aims to **empower small businesses** by simplifying digital growth, reducing costs, and making technology accessible without requiring technical expertise.
+
+
+## FIGMA LINK :
+
+https://www.figma.com/design/DJbBILV41ilvI9CmqrWM9u/Untitled?node-id=3-2&t=tMe9JyndJocnPqoO-1
