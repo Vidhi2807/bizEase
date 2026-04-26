@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
@@ -21,6 +21,7 @@ import {
 
 export default function Signup() {
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
 
   const formik = useFormik({
     initialValues: {
@@ -37,6 +38,11 @@ export default function Signup() {
     }),
     onSubmit: values => {
       console.log('Signup Form values', values);
+      if (values.email === 'vidhi@gmail.com' && values.password === '12345678') {
+        navigate('/');
+      } else {
+        navigate('/onboarding');
+      }
     },
   });
 

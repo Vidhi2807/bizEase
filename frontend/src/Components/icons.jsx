@@ -86,3 +86,39 @@ export const Apple = ({ className, fontSize }) => (
     <path d="M17.05 20.28c-.98.95-2.05 1.9-3.24 1.9-1.21 0-1.69-.74-3.14-.74-1.44 0-1.9.74-3.14.74-1.2 0-2.28-.97-3.29-1.95-2.79-2.75-4.8-8-3.05-11.83C2.17 6.45 3.92 5 5.86 5c1.47 0 2.84 1.02 3.63 1.02.82 0 2.32-1.07 4.02-1.07 2.15 0 3.9 1.12 4.9 2.87-4.14 2.41-3.4 8.73.57 10.3-.77 2.03-1.95 3.9-3.48 5.16L17.05 20.28z M12.03 4.88c-.17-2.12 1.48-4.04 3.54-4.24.2 2.15-1.5 4.09-3.54 4.24z"/>
   </svg>
 )
+
+export const Storefront = ({ className, fontSize }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className || (fontSize === 'small' ? 'h-5 w-5' : 'h-6 w-6')}>
+    <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"/>
+  </svg>
+)
+
+export const Briefcase = ({ className, fontSize }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className || (fontSize === 'small' ? 'h-5 w-5' : 'h-6 w-6')}>
+    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+  </svg>
+)
+
+export const CheckCircle = ({ className, fontSize }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className={className || (fontSize === 'small' ? 'h-5 w-5' : 'h-6 w-6')}>
+    <path fillRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" clipRule="evenodd" />
+  </svg>
+)
+
+export const Palette = ({ className, fontSize }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className || (fontSize === 'small' ? 'h-5 w-5' : 'h-6 w-6')}>
+    <circle cx="13.5" cy="6.5" r=".5"/><circle cx="17.5" cy="10.5" r=".5"/><circle cx="8.5" cy="7.5" r=".5"/><circle cx="6.5" cy="12.5" r=".5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+  </svg>
+)
+
+export const Lightbulb = ({ className, fontSize }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className || (fontSize === 'small' ? 'h-5 w-5' : 'h-6 w-6')}>
+    <path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/>
+  </svg>
+)
+
+export const ArrowBack = ({ className, fontSize }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className || (fontSize === 'small' ? 'h-5 w-5' : 'h-6 w-6')}>
+    <line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline>
+  </svg>
+)
